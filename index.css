@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-image: linear-gradient(to bottom right, rgb(141, 65, 65), rgb(23, 12, 70));
+    height: 100vh;
+    width: 100vw;
+    
+}
+.main-div{
+    background-color: rgb(97, 92, 92);
+    width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    font-family: sans-serif;
+    
+}
+.outer-div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    
+    color: aliceblue;
+    margin-bottom: 25px;
+    
+}
+.iconclockwala{
+    height: 25px;
+    width: 25px;
+    
+}
+.enterDateInput{
+    padding: 4px;
+    border-radius: 8px;
+    border-color:rgb(97, 92, 92); ;
+    margin-bottom: 10px;
+    background-color: rgb(141, 65, 65);
+    color: aliceblue;
+}
+.count-down-Div{
+    display:none;
+    color: aliceblue;
+    font-size: 17px;
+    background-color: rgb(216, 87, 48);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+
+}
+.count-down-Div.active{
+    color: aliceblue;
+    font-size: 17px;
+    background-color: rgb(216, 87, 48);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.days-left{
+    margin-left: 10px;
+}
+.parahai{
+    margin-right: 10px;
+    padding-left: 2px;
+    
+}
+
+.clearButton{
+    background-color:rgb(141, 65, 65) ;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+.clearButton:hover{
+    background-color: rgb(216, 87, 48);
+    border: 1px white solid;
+
+}
+@media screen and (max-width:417px){ 
+    .main-div{
+        width: 320px;
+
+        
+    }
+    
+}
+@media screen and (max-width:403px){ 
+    .main-div{
+        width: 280px;
+
+        
+    }
+    
+}
